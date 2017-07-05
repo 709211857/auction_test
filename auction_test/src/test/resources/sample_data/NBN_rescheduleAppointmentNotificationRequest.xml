@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns7:rescheduleAppointmentNotificationRequest xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns20="http://www.nbnco.com.au/cim/common/time/v4" xmlns:ns21="http://www.group.singtel.com.au/cdm/v2_0_0/product" xmlns:ns180="http://www.nbnco.com.au/cim/common/testAndDiagnostics/v4" xmlns:ns22="http://www.group.singtel.com.au/cdm/v2_0_0/common" xmlns:ns23="http://www.nbnco.com.au/cim/manageInventory/v4" xmlns:ns24="http://www.group.singtel.com.au/cdm/v2_0_0/resource" xmlns:ns25="http://www.nbnco.com.au/cim/common/businessInteraction/v4" xmlns:ns27="http://www.group.singtel.com.au/ServiceOrderService/v2_0/ServiceOrderService" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns0="http://www.nbnco.com.au/cim/common/service/v3" xmlns:ns1="http://www.nbnco.com.au/cim/manageServiceQualification/v4" xmlns:ns2="http://www.group.singtel.com.au/ops/ff/crm/orderhandling/v2_0/AddressService" xmlns:ns3="http://www.nbnco.com.au/cim/manageAddress/v4" xmlns:ns4="http://www.group.singtel.com.au/ops/ff/cmo/svccfgact/v2_0/ServiceQualificationService" xmlns:ns5="http://www.group.singtel.com.au/cdm/v2_0_0/service" xmlns:ns6="http://www.nbnco.com.au/cim/manageProductOrder/v4" xmlns:ns7="http://www.group.singtel.com.au/AppointmentService/v2_0/AppointmentService" xmlns:ns8="http://www.nbnco.com.au/cim/manageAppointment/v4" xmlns:ns9="http://www.nbnco.com.au/cim/common/accessSeeker/v3" xmlns:ns10="http://www.nbnco.com.au/cim/common/product/v4" xmlns:ns11="http://www.nbnco.com.au/cim/common/resource/v3" xmlns:ns12="http://www.nbnco.com.au/cim/common/performance/v3" xmlns:ns14="http://www.nbnco.com.au/cim/common/party/v3" xmlns:ns15="http://www.nbnco.com.au/cim/common/place/v3" xmlns:ns16="http://www.nbnco.com.au/cim/common/message/v4" xmlns:ns17="http://www.group.singtel.com.au/ops/ff/cmo/svccfgact/v2_0/ServiceProfileService" xmlns:ns18="http://www.group.singtel.com.au/cdm/v2_0_0/customer" xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns19="http://www.nbnco.com.au/cim/common/exception/v3">
+	<common:interactionId xmlns:common="http://www.group.singtel.com.au/cdm/v2_0_0/common">2797655</common:interactionId>
+	<com:processId xmlns:com="http://www.group.singtel.com.au/cdm/v2_0_0/common">2632840</com:processId>
+	<common:callerIdentity xmlns:optusfunc="http://optus.com.au/xb62/funcs" xmlns:common="http://www.group.singtel.com.au/cdm/v2_0_0/common">NBNCO</common:callerIdentity>
+	<common:receiverIdentity xmlns:common="http://www.group.singtel.com.au/cdm/v2_0_0/common">NBN_TIBCO_OW</common:receiverIdentity>
+	<ns7:mustDoAppointment>
+		<ns22:id>OptusB2BTxNum_OWO_2544796</ns22:id>
+		<ns22:businessInteractionRole xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns22:PartyInteractionRole">
+			<ns22:partyRole xsi:type="ns18:Customer">
+				<ns22:name>MICHAEL </ns22:name>
+				<ns22:contactMedium xsi:type="ns22:TelephoneNumber">
+					<ns22:otherUsage/>
+					<ns22:number>0404689427</ns22:number>
+					<ns22:type>NA</ns22:type>
+				</ns22:contactMedium>
+			</ns22:partyRole>
+		</ns22:businessInteractionRole>
+		<ns22:businessInteractionLocation>
+			<ns22:id>APT000007925454</ns22:id>
+			<ns22:place xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns22:AustralianPropertyAddress">
+				<ns22:id>LOC000073515592</ns22:id>
+				<ns22:specification xsi:type="ns5:ServiceDefinition">
+					<ns22:description>DescribedBy</ns22:description>
+					<ns22:specificationName>PrimaryAccessTechnology</ns22:specificationName>
+					<ns5:serviceSpecCharUse>
+						<ns5:serviceSpecCharacteristic>
+							<ns5:serviceCharacteristicValue>
+								<ns5:value>Fibre</ns5:value>
+							</ns5:serviceCharacteristicValue>
+							<ns5:serviceSpecCharacteristicValue/>
+						</ns5:serviceSpecCharacteristic>
+					</ns5:serviceSpecCharUse>
+				</ns22:specification>
+				<ns22:specification xsi:type="ns5:ServiceDefinition">
+					<ns22:description>DescribedBy</ns22:description>
+					<ns22:specificationName>ServiceabilityClass</ns22:specificationName>
+					<ns5:serviceSpecCharUse>
+						<ns5:serviceSpecCharacteristic>
+							<ns5:serviceCharacteristicValue>
+								<ns5:value>2</ns5:value>
+							</ns5:serviceCharacteristicValue>
+							<ns5:serviceSpecCharacteristicValue/>
+						</ns5:serviceSpecCharacteristic>
+					</ns5:serviceSpecCharUse>
+				</ns22:specification>
+				<ns22:specification xsi:type="ns5:ServiceDefinition">
+					<ns22:description>DescribedBy</ns22:description>
+					<ns22:specificationName>CSAID</ns22:specificationName>
+					<ns5:serviceSpecCharUse>
+						<ns5:serviceSpecCharacteristic>
+							<ns5:serviceCharacteristicValue>
+								<ns5:value>CSA600000000017</ns5:value>
+							</ns5:serviceCharacteristicValue>
+							<ns5:serviceSpecCharacteristicValue/>
+						</ns5:serviceSpecCharacteristic>
+					</ns5:serviceSpecCharUse>
+				</ns22:specification>
+				<ns22:specification xsi:type="ns5:ServiceDefinition">
+					<ns22:description>DescribedBy</ns22:description>
+					<ns22:specificationName>Region</ns22:specificationName>
+					<ns5:serviceSpecCharUse>
+						<ns5:serviceSpecCharacteristic>
+							<ns5:serviceCharacteristicValue>
+								<ns5:value>Urban</ns5:value>
+							</ns5:serviceCharacteristicValue>
+							<ns5:serviceSpecCharacteristicValue/>
+						</ns5:serviceSpecCharacteristic>
+					</ns5:serviceSpecCharUse>
+				</ns22:specification>
+				<ns22:stateOrProvince>WA</ns22:stateOrProvince>
+				<ns22:subAddress/>
+				<ns22:streetNrFirst>61</ns22:streetNrFirst>
+				<ns22:streetName>EGHAM</ns22:streetName>
+				<ns22:streetType>RD</ns22:streetType>
+				<ns22:suburbPlaceLocality>LATHLAIN</ns22:suburbPlaceLocality>
+				<ns22:latitude>-31.968104</ns22:latitude>
+				<ns22:longitude>115.90446</ns22:longitude>
+			</ns22:place>
+		</ns22:businessInteractionLocation>
+		<ns22:businessInteractionRelationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns22:Appointment">
+			<ns22:id>APT000007925454</ns22:id>
+			<ns22:status>RESERVED</ns22:status>
+			<ns22:appointmentSlotCode>AM</ns22:appointmentSlotCode>
+			<ns22:appointmentIsAssociatedWithCalendarEntry>
+				<ns22:creationDate>2015-06-16T10:37:54+08:00</ns22:creationDate>
+				<ns22:simpleTemporalExpression>
+					<ns22:timePeriod>
+						<ns22:startDateTime>2015-06-22T08:00:00+08:00</ns22:startDateTime>
+						<ns22:endDateTime>2015-06-22T12:00:00+08:00</ns22:endDateTime>
+					</ns22:timePeriod>
+				</ns22:simpleTemporalExpression>
+			</ns22:appointmentIsAssociatedWithCalendarEntry>
+			<ns22:specification xsi:type="ns5:ServiceDefinition">
+				<ns22:specificationName>Cause</ns22:specificationName>
+				<ns5:serviceSpecCharUse>
+					<ns5:serviceSpecCharacteristic>
+						<ns5:type>ClosureCode</ns5:type>
+						<ns5:serviceCharacteristicValue>
+							<ns5:value>RESERVED</ns5:value>
+						</ns5:serviceCharacteristicValue>
+						<ns5:serviceSpecCharacteristicValue/>
+					</ns5:serviceSpecCharacteristic>
+				</ns5:serviceSpecCharUse>
+			</ns22:specification>
+		</ns22:businessInteractionRelationship>
+		<ns22:businessInteractionRelationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns22:Appointment">
+			<ns22:id>APT000007925454</ns22:id>
+			<ns22:status>BOOKED</ns22:status>
+			<ns22:appointmentSlotCode>AM</ns22:appointmentSlotCode>
+			<ns22:appointmentIsAssociatedWithCalendarEntry>
+				<ns22:creationDate>2015-06-16T10:37:54+08:00</ns22:creationDate>
+				<ns22:simpleTemporalExpression>
+					<ns22:timePeriod>
+						<ns22:startDateTime>2015-06-22T08:00:00+08:00</ns22:startDateTime>
+						<ns22:endDateTime>2015-06-22T12:00:00+08:00</ns22:endDateTime>
+					</ns22:timePeriod>
+				</ns22:simpleTemporalExpression>
+			</ns22:appointmentIsAssociatedWithCalendarEntry>
+			<ns22:specification xsi:type="ns5:ServiceDefinition">
+				<ns22:specificationName>Cause</ns22:specificationName>
+				<ns5:serviceSpecCharUse>
+					<ns5:serviceSpecCharacteristic>
+						<ns5:type>ClosureCode</ns5:type>
+						<ns5:serviceCharacteristicValue>
+							<ns5:value>BOOKED</ns5:value>
+						</ns5:serviceCharacteristicValue>
+						<ns5:serviceSpecCharacteristicValue/>
+					</ns5:serviceSpecCharacteristic>
+				</ns5:serviceSpecCharUse>
+			</ns22:specification>
+		</ns22:businessInteractionRelationship>
+		<ns22:businessInteractionRelationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns22:Appointment">
+			<ns22:id>APT000007925454</ns22:id>
+			<ns22:status>BOOKED</ns22:status>
+			<ns22:appointmentSlotCode>AM</ns22:appointmentSlotCode>
+			<ns22:appointmentIsAssociatedWithCalendarEntry>
+				<ns22:creationDate>2015-06-16T10:37:54+08:00</ns22:creationDate>
+				<ns22:simpleTemporalExpression>
+					<ns22:timePeriod>
+						<ns22:startDateTime>2015-06-22T08:00:00+08:00</ns22:startDateTime>
+						<ns22:endDateTime>2015-06-22T12:00:00+08:00</ns22:endDateTime>
+					</ns22:timePeriod>
+				</ns22:simpleTemporalExpression>
+			</ns22:appointmentIsAssociatedWithCalendarEntry>
+			<ns22:specification xsi:type="ns5:ServiceDefinition">
+				<ns22:specificationName>Cause</ns22:specificationName>
+				<ns5:serviceSpecCharUse>
+					<ns5:serviceSpecCharacteristic>
+						<ns5:type>ClosureCode</ns5:type>
+						<ns5:serviceCharacteristicValue>
+							<ns5:value>LATE-DAY-VISIT</ns5:value>
+						</ns5:serviceCharacteristicValue>
+						<ns5:serviceSpecCharacteristicValue/>
+					</ns5:serviceSpecCharacteristic>
+				</ns5:serviceSpecCharUse>
+			</ns22:specification>
+		</ns22:businessInteractionRelationship>
+		<ns22:businessInteractionRelationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns22:Appointment">
+			<ns22:id>APT000007925454</ns22:id>
+			<ns22:status>IN PROGRESS</ns22:status>
+			<ns22:appointmentSlotCode>AM</ns22:appointmentSlotCode>
+			<ns22:appointmentIsAssociatedWithCalendarEntry>
+				<ns22:creationDate>2015-06-16T10:37:54+08:00</ns22:creationDate>
+				<ns22:simpleTemporalExpression>
+					<ns22:timePeriod>
+						<ns22:startDateTime>2015-06-22T08:00:00+08:00</ns22:startDateTime>
+						<ns22:endDateTime>2015-06-22T12:00:00+08:00</ns22:endDateTime>
+					</ns22:timePeriod>
+				</ns22:simpleTemporalExpression>
+			</ns22:appointmentIsAssociatedWithCalendarEntry>
+			<ns22:specification xsi:type="ns5:ServiceDefinition">
+				<ns22:specificationName>Cause</ns22:specificationName>
+				<ns5:serviceSpecCharUse>
+					<ns5:serviceSpecCharacteristic>
+						<ns5:type>ClosureCode</ns5:type>
+						<ns5:serviceCharacteristicValue>
+							<ns5:value>TECH-ON-SITE</ns5:value>
+						</ns5:serviceCharacteristicValue>
+						<ns5:serviceSpecCharacteristicValue/>
+					</ns5:serviceSpecCharacteristic>
+				</ns5:serviceSpecCharUse>
+			</ns22:specification>
+		</ns22:businessInteractionRelationship>
+		<ns22:businessInteractionRelationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns22:Appointment">
+			<ns22:id>APT000007925454</ns22:id>
+			<ns22:status>IN PROGRESS</ns22:status>
+			<ns22:appointmentSlotCode>AM</ns22:appointmentSlotCode>
+			<ns22:appointmentIsAssociatedWithCalendarEntry>
+				<ns22:creationDate>2015-06-16T10:37:54+08:00</ns22:creationDate>
+				<ns22:simpleTemporalExpression>
+					<ns22:timePeriod>
+						<ns22:startDateTime>2015-06-22T08:00:00+08:00</ns22:startDateTime>
+						<ns22:endDateTime>2015-06-22T12:00:00+08:00</ns22:endDateTime>
+					</ns22:timePeriod>
+				</ns22:simpleTemporalExpression>
+			</ns22:appointmentIsAssociatedWithCalendarEntry>
+			<ns22:specification xsi:type="ns5:ServiceDefinition">
+				<ns22:specificationName>Cause</ns22:specificationName>
+				<ns5:serviceSpecCharUse>
+					<ns5:serviceSpecCharacteristic>
+						<ns5:type>ClosureCode</ns5:type>
+						<ns5:serviceCharacteristicValue>
+							<ns5:value>NEXT-DAY-VISIT-NBN</ns5:value>
+						</ns5:serviceCharacteristicValue>
+						<ns5:serviceSpecCharacteristicValue/>
+					</ns5:serviceSpecCharacteristic>
+				</ns5:serviceSpecCharUse>
+			</ns22:specification>
+		</ns22:businessInteractionRelationship>
+		<ns22:businessInteractionRelationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns22:Appointment">
+			<ns22:id>APT000007925454</ns22:id>
+			<ns22:status>INCOMPLETE</ns22:status>
+			<ns22:appointmentSlotCode>AM</ns22:appointmentSlotCode>
+			<ns22:appointmentIsAssociatedWithCalendarEntry>
+				<ns22:creationDate>2015-06-16T10:37:54+08:00</ns22:creationDate>
+				<ns22:simpleTemporalExpression>
+					<ns22:timePeriod>
+						<ns22:startDateTime>2015-06-30T08:00:00+08:00</ns22:startDateTime>
+						<ns22:endDateTime>2015-06-30T12:00:00+08:00</ns22:endDateTime>
+					</ns22:timePeriod>
+				</ns22:simpleTemporalExpression>
+			</ns22:appointmentIsAssociatedWithCalendarEntry>
+			<ns22:specification xsi:type="ns5:ServiceDefinition">
+				<ns22:specificationName>Cause</ns22:specificationName>
+				<ns5:serviceSpecCharUse>
+					<ns5:serviceSpecCharacteristic>
+						<ns5:type>ClosureCode</ns5:type>
+						<ns5:serviceCharacteristicValue>
+							<ns5:value>INCOMPLETE</ns5:value>
+						</ns5:serviceCharacteristicValue>
+						<ns5:serviceSpecCharacteristicValue/>
+					</ns5:serviceSpecCharacteristic>
+				</ns5:serviceSpecCharUse>
+			</ns22:specification>
+		</ns22:businessInteractionRelationship>
+		<ns22:status>BOOKED</ns22:status>
+		<ns22:appointmentSlotCode>AM</ns22:appointmentSlotCode>
+		<ns22:appointmentIsAssociatedWithCalendarEntry>
+			<ns22:creationDate>2015-06-16T10:37:54+08:00</ns22:creationDate>
+			<ns22:simpleTemporalExpression>
+				<ns22:timePeriod>
+					<ns22:startDateTime>2015-06-30T08:00:00+08:00</ns22:startDateTime>
+					<ns22:endDateTime>2015-06-30T12:00:00+08:00</ns22:endDateTime>
+				</ns22:timePeriod>
+			</ns22:simpleTemporalExpression>
+		</ns22:appointmentIsAssociatedWithCalendarEntry>
+		<ns22:specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns5:ServiceDefinition">
+			<ns22:description>DescribedBy</ns22:description>
+			<ns22:specificationName>Cause</ns22:specificationName>
+			<ns5:serviceSpecCharUse>
+				<ns5:serviceSpecCharacteristic>
+					<ns5:type>ClosureCode</ns5:type>
+					<ns5:serviceCharacteristicValue>
+						<ns5:value>FP-RESCHED-CUST</ns5:value>
+					</ns5:serviceCharacteristicValue>
+					<ns5:serviceSpecCharacteristicValue/>
+				</ns5:serviceSpecCharacteristic>
+			</ns5:serviceSpecCharUse>
+		</ns22:specification>
+		<ns22:specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns5:ServiceDefinition">
+			<ns22:description>DescribedBy</ns22:description>
+			<ns22:specificationName>Priority Assist</ns22:specificationName>
+			<ns5:serviceSpecCharUse>
+				<ns5:serviceSpecCharacteristic>
+					<ns5:serviceCharacteristicValue>
+						<ns5:value>No</ns5:value>
+					</ns5:serviceCharacteristicValue>
+					<ns5:serviceSpecCharacteristicValue/>
+				</ns5:serviceSpecCharacteristic>
+			</ns5:serviceSpecCharUse>
+		</ns22:specification>
+		<ns22:specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns5:ServiceDefinition">
+			<ns22:description>DescribedBy</ns22:description>
+			<ns22:specificationName>AppointmentSLA</ns22:specificationName>
+			<ns5:serviceSpecCharUse>
+				<ns5:serviceSpecCharacteristic>
+					<ns5:serviceCharacteristicValue>
+						<ns5:value>Standard</ns5:value>
+					</ns5:serviceCharacteristicValue>
+					<ns5:serviceSpecCharacteristicValue/>
+				</ns5:serviceSpecCharacteristic>
+			</ns5:serviceSpecCharUse>
+		</ns22:specification>
+		<ns22:specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns5:ServiceDefinition">
+			<ns22:description>DescribedBy</ns22:description>
+			<ns22:specificationName>NBNReferenceID</ns22:specificationName>
+			<ns5:serviceSpecCharUse>
+				<ns5:serviceSpecCharacteristic>
+					<ns5:type>ProductOrder</ns5:type>
+					<ns5:serviceCharacteristicValue>
+						<ns5:value>ORD000040955805</ns5:value>
+					</ns5:serviceCharacteristicValue>
+					<ns5:serviceSpecCharacteristicValue/>
+				</ns5:serviceSpecCharacteristic>
+			</ns5:serviceSpecCharUse>
+		</ns22:specification>
+		<ns22:specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns5:ServiceDefinition">
+			<ns22:commonName>Standard Install</ns22:commonName>
+			<ns22:description>SpecifiedBy</ns22:description>
+			<ns22:specificationName>Demand Type</ns22:specificationName>
+			<ns22:specificationType/>
+			<ns5:serviceSpecCharUse>
+				<ns5:serviceSpecCharacteristic/>
+			</ns5:serviceSpecCharUse>
+		</ns22:specification>
+		<ns22:skill/>
+	</ns7:mustDoAppointment>
+</ns7:rescheduleAppointmentNotificationRequest>
