@@ -1,2 +1,7 @@
 eclipse.preferences.version=1
+encoding//src/main/java/com/austin/auction/service/ClientAuctionBid.java=UTF-8
+encoding//src/main/webapp/WEB-INF/view/createauction.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/view/createbidding.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/view/currentrank.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/view/finalresult.jsp=UTF-8
 encoding/<project>=UTF-8
